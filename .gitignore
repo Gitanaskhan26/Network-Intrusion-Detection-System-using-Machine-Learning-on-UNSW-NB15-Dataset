@@ -1,0 +1,113 @@
+# Virtual Environments
+venvns/
+venv/
+env/
+ENV/
+.venv
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+.idea_modules/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs
+logs/
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# ML/Data Science specific
+*.pkl
+*.h5
+*.hdf5
+*.model
+*.weights
+*.joblib
+Artifacts/
+artifacts/
+mlruns/
+*.csv
+*.parquet
+
+# Exclude specific data files
+Network_Data/*.csv
+prediction_output/*.csv
+valid_data/*.csv
+
+# Keep directory structure
+!Network_Data/.gitkeep
+!prediction_output/.gitkeep
+!valid_data/.gitkeep
+
+# Docker
+*.tar
+.dockerignore
+
+# System Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Temporary files
+*.swp
+*.swo
+*~
+.tmp/
+tmp/
